@@ -11,7 +11,7 @@ server.listen(8080,'127.0.0.1');
 //attach event on Request to call function SendResonse
 server.on('request',sendResponse);
  
-//Cathes the request and sends the Response
+//Catches the request and sends the Response
 function sendResponse(req,res){
 
 //Response Header
